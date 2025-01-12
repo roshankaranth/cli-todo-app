@@ -12,7 +12,7 @@ func main() {
 
 	switch command {
 	case "add":
-		AddTask()
+		AddTask(os.Args[2])
 	case "list":
 		ListTasks()
 	case "help", "":
